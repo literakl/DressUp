@@ -1,0 +1,54 @@
+{
+  "id": "Vilma",
+  "path" : "file:///android_asset/dress/vilma/hres/parts.png",
+  "w": 277,
+  "h": 789,
+  "main": {
+    "id": "main",
+    "price": 0,
+    "x": 1,
+    "y": 1,
+    "w": 278,
+    "h": 786,
+    "destX": 0,
+    "destY": 0
+  },
+  "parts": [
+    {
+      "id": "top",
+      "icon": "file:///android_asset/dress/vilma/hres/top.png",
+      "price": 60,
+      "alternatives": [],
+      "x": 289,
+      "y": 2,
+      "w": 116,
+      "h": 139,
+      "destX": 100,
+      "destY": 209
+    },
+    {
+      "id": "skirt",
+      "icon": "file:///android_asset/dress/vilma/hres/skirt.png",
+      "price": 60,
+      "alternatives": [],
+      "x": 284,
+      "y": 158,
+      "w": 146,
+      "h": 127,
+      "destX": 84,
+      "destY": 328
+    },
+    {
+      "id": "tshirt",
+      "icon": "file:///android_asset/dress/vilma/hres/tshirt.png",
+      "price": 65,
+      "alternatives": [],
+      "x": 438,
+      "y": 3,
+      "w": 183,
+      "h": 194,
+      "destX": 78,
+      "destY": 158
+    }
+  ]
+}
