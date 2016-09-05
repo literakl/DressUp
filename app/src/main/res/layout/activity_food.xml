@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        app:state_baked="false"
+        app:state_fried="true"
+        />
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        app:state_baked="true"
+        app:state_fried="true"
+        />
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        app:state_baked="true"
+        app:state_fried="false"
+        />
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:id="@+id/foodButton"
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        app:state_baked="false"
+        app:state_fried="false"
+        />
+</LinearLayout>

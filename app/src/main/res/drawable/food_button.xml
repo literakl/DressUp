@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/sandbox.lelisoft.com.dressup"
+    >
+    <item
+        app:state_baked="true"
+        app:state_fried="false"
+        android:drawable="@drawable/item_baked" />
+    <item
+        app:state_baked="false"
+        app:state_fried="true"
+        android:drawable="@drawable/item_fried" />
+    <item
+        app:state_baked="true"
+        app:state_fried="true"
+        android:drawable="@drawable/item_overcooked" />
+    <item
+        app:state_baked="false"
+        app:state_fried="false"
+        android:drawable="@drawable/item_raw" />
+</selector>
