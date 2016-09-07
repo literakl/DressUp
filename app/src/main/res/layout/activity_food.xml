@@ -6,31 +6,39 @@
     android:layout_height="match_parent">
 
     <sandbox.lelisoft.com.dressup.FoodButton
-        android:layout_height="60dp"
-        android:layout_width="150dp"
-        app:state_baked="false"
-        app:state_fried="true"
-        />
-
-    <sandbox.lelisoft.com.dressup.FoodButton
-        android:layout_height="60dp"
-        android:layout_width="150dp"
-        app:state_baked="true"
-        app:state_fried="true"
-        />
-
-    <sandbox.lelisoft.com.dressup.FoodButton
-        android:layout_height="60dp"
-        android:layout_width="150dp"
-        app:state_baked="true"
-        app:state_fried="false"
-        />
-
-    <sandbox.lelisoft.com.dressup.FoodButton
         android:id="@+id/foodButton"
         android:layout_height="60dp"
         android:layout_width="150dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        app:state_baked="false"
+        app:state_fried="true"
+        android:background="@drawable/food_button"
+        />
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        app:state_baked="true"
+        app:state_fried="true"
+        android:background="@drawable/food_button"
+        />
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        app:state_baked="true"
+        app:state_fried="false"
+        android:background="@drawable/food_button"
+        />
+
+    <sandbox.lelisoft.com.dressup.FoodButton
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
         app:state_baked="false"
         app:state_fried="false"
+        android:background="@drawable/food_button"
         />
 </LinearLayout>
